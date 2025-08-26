@@ -22,8 +22,8 @@ use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Validator\Constraints\Callback;
 use Symfony\Component\Validator\Constraints\NotBlank;
 use Thelia\Core\Translation\Translator;
-use Thelia\Domain\Customer\CustomerTitleService;
-use Thelia\Domain\Localization\CountryService;
+use Thelia\Domain\Customer\Service\CustomerTitleService;
+use Thelia\Domain\Localization\Service\CountryService;
 use Thelia\Model\Map\StateI18nTableMap;
 use Thelia\Model\StateQuery;
 
