@@ -26,10 +26,10 @@ use Thelia\Core\Event\UpdatePositionEvent;
 use Thelia\Core\Security\AccessManager;
 use Thelia\Core\Security\Resource\AdminResources;
 use Thelia\Core\Serializer\AbstractSerializer;
+use Thelia\Domain\DataTransfer\Importhandler;
 use Thelia\Form\Definition\AdminForm;
 use Thelia\Form\Exception\FormValidationException;
 use Thelia\Model\LangQuery;
-use Thelia\Service\DataTransfer\Importhandler;
 
 /**
  * Class ImportController.
